@@ -25,15 +25,7 @@ function App() {
 
   return (
     <>
-      <div
-        style={{
-          position: "fixed",
-          bottom: 0,
-          width: "100%",
-          height: "40%",
-          backgroundColor: "hsl(195deg, 20%, 86%)",
-        }}
-      ></div>
+      <div className={styles.perspectiveBar}></div>
       <main className={styles.characterEditor}>
         <MaxWidthWrapper className={styles.maxWidthWrapper}>
           <header className={styles.header}>
